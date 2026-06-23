@@ -86,7 +86,7 @@
       <div class="card">
         <div class="card-bar"></div>
         <h3 class="card-title">Treino Individual</h3>
-        <p class="card-desc">Treinamento tático personalizado.</p>
+        <p class="card-desc">Treinamento personalizado.</p>
         <div class="card-divider"></div>
         <div class="card-price">Preços a consultar</div>
         <a href="#contato" class="btn">Faça uma consulta</a>
@@ -121,25 +121,7 @@
 </section>
 
 <!-- Contato -->
-<section id="contato" class="strip">
-  <div class="container" style="max-width:760px;">
-    <h2 class="h-section">Entre em contato</h2>
-    <form class="form" onsubmit="event.preventDefault(); this.innerHTML='<p style=\'color:var(--primary);text-align:center;padding:2rem;border:1px solid var(--primary)\'>Mensagem enviada! Entraremos em contato em breve.</p>';">
-      <div class="field"><label>Nome Completo*</label><input required type="text" /></div>
-      <div class="field"><label>E-mail*</label><input required type="email" /></div>
-      <div class="field">
-        <label>Tipo de Interesse*</label>
-        <div class="chips">
-          <button type="button" class="chip active" onclick="document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));this.classList.add('active');">Individual</button>
-          <button type="button" class="chip" onclick="document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));this.classList.add('active');">Parceria</button>
-          <button type="button" class="chip" onclick="document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));this.classList.add('active');">Outros</button>
-        </div>
-      </div>
-      <div class="field"><label>Mensagem*</label><textarea required rows="4"></textarea></div>
-      <button type="submit" class="btn btn-solid" style="align-self:flex-start;">Enviar</button>
-    </form>
-  </div>
-</section>
+
 
 <footer class="footer">
   <div class="container footer-inner">
